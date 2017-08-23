@@ -14,8 +14,8 @@ export default class BaseLayout extends Component {
             </ul>
           </nav>
         </header>
-        <div className="content">
-        { this.props.children}
+        <div>
+          {this.props.children}
         </div>
         <footer>
         </footer>

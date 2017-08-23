@@ -1,0 +1,31 @@
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0px auto;
+  padding: 30px 0;
+  width: 40%;
+}
+
+nav {
+  border-bottom: 1px solid #000;
+}
+
+.content {
+  width: 80%;
+  margin: 0px auto;
+  padding: 20px;
+}
+
+.portfolioContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.portfolioContainer img {
+  width: 23%;
+  padding: 10px;
+}

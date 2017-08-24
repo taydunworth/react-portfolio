@@ -35,11 +35,7 @@ nav ul li a {
   font-size: 18px;
   text-decoration: none;
   letter-spacing: 4px;
-  font-weight: 400;
-}
-
-nav li a:visited {
-  color: #000;
+  font-weight: 300;
 }
 
 nav ul li a:hover {
@@ -96,9 +92,8 @@ nav li a:hover:after, nav li a:focus:after {
   transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
 }
 
-a, a:visited {
-  text-decoration: none;
-  cursor: pointer;
+.active {
+  font-weight: 400;
 }
 
 .jumbotron {
@@ -137,6 +132,25 @@ a, a:visited {
 .portfolioContainer img {
   width: 23%;
   padding: 10px;
+}
+
+.reference-box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.reference {
+  width: 30%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li a, ul li a:visited {
+  text-decoration: none;
+  color: #000;
 }
 
 @keyframes fade {
